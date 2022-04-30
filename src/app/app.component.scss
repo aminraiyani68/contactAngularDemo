@@ -1,0 +1,18 @@
+@import "../assets/scss/variable";
+
+$contactListBoxWidth: 650px;
+
+.contact{
+    display: flex;
+
+    &__list-box{
+        background-color: $grey-color-1;
+        width: $contactListBoxWidth;
+        height: 100vh;
+    }
+
+    &__details-box{
+        width: calc(100% - #{$contactListBoxWidth} - 4px);
+        padding: 62px;
+    }
+}

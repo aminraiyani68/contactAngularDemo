@@ -1,0 +1,231 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "position": "software Developer",
+      "bio": "When I first got into the advertising, I was looking for the magical combination that would put website into the top search engine rankings",
+      "emails": [
+        { "email": "sebastian@codingthesmartway.com", "isPrimary": true },
+        { "email": "sebastian@codingthesmartway+1.com", "isPrimary": false }
+      ],
+      "dial": "sebastian@codingthesmartway+2.com",
+      "meeting": "http://codingthesmartway.com",
+      "phones": [
+        { "phone": "423-532-423", "isPrimary": true },
+        { "phone": "423-532-424", "isPrimary": false }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/Sebastian",
+        "pin": "https://www.pint.com/Sebastian",
+        "twitter": "https://www.twitter.com/Sebastian",
+        "linkedIn": "https://www.linkedin.com/Sebastian",
+        "google": "https://www.google.com/Sebastian"
+      },
+      "profilePic": "https://github.com/tarangsachdev92/backend-server/blob/main/images/Img-01.png?raw=true"
+    },
+    {
+      "id": 2,
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "position": "Sales Manager",
+      "bio": "I am a sales manager having lots of experience and I can help you to increase ur sell",
+      "emails": [
+        { "email": "steve@codingthesmartway.com", "isPrimary": true },
+        { "email": "steve@codingthesmartway+1.com", "isPrimary": false }
+      ],
+      "dial": "steve@codingthesmartway+2.com",
+      "meeting": "http://codingthesmartwaysteve.com",
+      "phones": [
+        { "phone": "423-532-453", "isPrimary": false },
+        { "phone": "323-545-424", "isPrimary": true }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/steve",
+        "pin": "https://www.pint.com/steve",
+        "twitter": "https://www.twitter.com/steve",
+        "linkedIn": "https://www.linkedin.com/steve",
+        "google": "https://www.google.com/steve"
+      },
+      "profilePic": "https://github.com/tarangsachdev92/backend-server/blob/main/images/Img-02.png?raw=true"
+    },
+    {
+      "id": 3,
+      "first_name": "Ann",
+      "last_name": "Smith",
+      "position": "Project Manager",
+      "bio": "I am having a very large amount of experience in project management and I can help companies to developer their projects",
+      "emails": [
+        { "email": "ann@codingthesmartway.com", "isPrimary": true },
+        { "email": "ann@codingthesmartway+1.com", "isPrimary": false }
+      ],
+      "dial": "annsmith@codingthesmartway+2.com",
+      "meeting": "http://anncodingthesmartwayann.com",
+      "phones": [
+        { "phone": "656-532-453", "isPrimary": false },
+        { "phone": "323-545-424", "isPrimary": true }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/ann",
+        "pin": "https://www.pint.com/ann",
+        "twitter": "https://www.twitter.com/ann",
+        "linkedIn": "https://www.linkedin.com/ann",
+        "google": "https://www.google.com/ann"
+      },
+      "profilePic": "https://github.com/tarangsachdev92/backend-server/blob/main/images/Img-03.png?raw=true"
+    },
+    {
+      "id": 4,
+      "first_name": "MS",
+      "last_name": "Dhoni",
+      "position": "software Developer",
+      "bio": "I am an very good cricketer and I have played around 345 matches",
+      "emails": [
+        { "email": "msdd@codingthesmartway.com", "isPrimary": true },
+        { "email": "msdd12@codingthesmartway+1.com", "isPrimary": false }
+      ],
+      "dial": "msc@codingthesmartway+2.com",
+      "meeting": "http://anncodingthesmartwayann.com",
+      "phones": [
+        { "phone": "656-532-453", "isPrimary": true },
+        { "phone": "323-545-424", "isPrimary": false }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/ann",
+        "pin": "https://www.pint.com/ann",
+        "twitter": "https://www.twitter.com/ann",
+        "linkedIn": "https://www.linkedin.com/ann",
+        "google": "https://www.google.com/ann"
+      },
+      "profilePic": "https://github.com/tarangsachdev92/backend-server/blob/main/images/Img-04.png?raw=true"
+    },
+    {
+      "id": 5,
+      "first_name": "Cristiano",
+      "last_name": "Ronaldo",
+      "position": "Seniour QA",
+      "bio": "I am an very good footballed and I have played for as many as 6 teams world wide",
+      "emails": [
+        { "email": "ann@codingthesmartway.com", "isPrimary": true },
+        { "email": "ann@codingthesmartway+1.com", "isPrimary": false }
+      ],
+      "dial": "steve@codingthesmartway+2.com",
+      "meeting": "http://anncodingthesmartwayann.com",
+      "phones": [
+        { "phone": "656-532-453", "isPrimary": false },
+        { "phone": "323-545-424", "isPrimary": true }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/ann",
+        "pin": "https://www.pint.com/ann",
+        "twitter": "https://www.twitter.com/ann",
+        "linkedIn": "https://www.linkedin.com/ann",
+        "google": "https://www.google.com/ann"
+      },
+      "profilePic": "https://github.com/tarangsachdev92/backend-server/blob/main/images/Img-05.png?raw=true"
+    },
+    {
+      "id": 6,
+      "first_name": "Brian",
+      "last_name": "Lara",
+      "position": "Project Manager",
+      "bio": "I am having a very large amount of experience in project management and I can help companies to developer their projects",
+      "emails": [
+        { "email": "ann@codingthesmartway.com", "isPrimary": true },
+        { "email": "ann@codingthesmartway+1.com", "isPrimary": false }
+      ],
+      "dial": "steve@codingthesmartway+2.com",
+      "meeting": "http://anncodingthesmartwayann.com",
+      "phones": [
+        { "phone": "656-123-214", "isPrimary": true },
+        { "phone": "124-123-424", "isPrimary": false }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/ann",
+        "pin": "https://www.pint.com/ann",
+        "twitter": "https://www.twitter.com/ann",
+        "linkedIn": "https://www.linkedin.com/ann",
+        "google": "https://www.google.com/ann"
+      },
+      "profilePic": "https://github.com/tarangsachdev92/backend-server/blob/main/images/Img-06.png?raw=true"
+    },
+
+    {
+      "id": 7,
+      "first_name": "Sachin",
+      "last_name": "Tendulkar",
+      "position": "Senior Developer",
+      "bio": "I am having a very large amount of experience in software development",
+      "emails": [
+        { "email": "sachingtendu@codingthesmartway.com", "isPrimary": true },
+        { "email": "sachingtendu@codingthesmartway+1.com", "isPrimary": false }
+      ],
+      "dial": "sachingtendu@codingthesmartway+2.com",
+      "meeting": "http://anncodingthesmartwayann.com",
+      "phones": [
+        { "phone": "091-532-126", "isPrimary": false },
+        { "phone": "323-978-424", "isPrimary": true }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/ann",
+        "pin": "https://www.pint.com/ann",
+        "twitter": "https://www.twitter.com/ann",
+        "linkedIn": "https://www.linkedin.com/ann",
+        "google": "https://www.google.com/ann"
+      },
+      "profilePic": "https://github.com/tarangsachdev92/backend-server/blob/main/images/Img-07.png?raw=true"
+    },
+    {
+      "id": 8,
+      "first_name": "Steve",
+      "last_name": "Smith",
+      "bio": "I am a sales manager having lots of experience and I can help you to increase ur sell",
+      "position": "Sales Manager",
+      "emails": [
+        { "email": "smithBaba@codingthesmartway.com", "isPrimary": true },
+        { "email": "smithBaba-12@codingthesmartway+1.com", "isPrimary": false }
+      ],
+      "dial": "steve@codingthesmartway+2.com",
+      "meeting": "http://anncodingthesmartwayann.com",
+      "phones": [
+        { "phone": "656-532-453", "isPrimary": true },
+        { "phone": "323-819-273", "isPrimary": false }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/ann",
+        "pin": "https://www.pint.com/ann",
+        "twitter": "https://www.twitter.com/ann",
+        "linkedIn": "https://www.linkedin.com/ann",
+        "google": "https://www.google.com/ann"
+      },
+      "profilePic": "https://github.com/tarangsachdev92/backend-server/blob/main/images/Img-08.png?raw=true"
+    },
+
+    {
+      "id": 9,
+      "first_name": "Dwyan",
+      "last_name": "Bravo",
+      "position": "Project Manager",
+      "bio": "I am having a very large amount of experience in project management and I can help companies to developer their projects",
+      "emails": [
+        { "email": "ann@codingthesmartway.com", "isPrimary": true },
+        { "email": "ann@codingthesmartway+1.com", "isPrimary": false }
+      ],
+      "dial": "Dwyan@codingthesmartway+2.com",
+      "meeting": "http://anncodingthesmartwayann.com",
+      "phones": [
+        { "phone": "356-532-124", "isPrimary": false },
+        { "phone": "812-123-424", "isPrimary": true }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/ann",
+        "pin": "https://www.pint.com/ann",
+        "twitter": "https://www.twitter.com/ann",
+        "linkedIn": "https://www.linkedin.com/ann",
+        "google": "https://www.google.com/ann"
+      },
+      "profilePic": "https://github.com/tarangsachdev92/backend-server/blob/main/images/Img-09.png?raw=true"
+    }
+  ]
+}

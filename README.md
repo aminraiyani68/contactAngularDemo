@@ -25,3 +25,30 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## abstract.scss
+This file is use for use mixin in scss in whole project
+
+## material.scss
+This file is use for overwrite material design
+
+## variable.scss
+This file is use for use the color variable and spacing variable
+
+## BEM methodology
+For class in html used block element modifier method
+
+## Models folder
+There is define contact model
+
+## Services folder
+Whichever servies we have used in contact module those all services define there
+
+## Utility folder
+There global components, servies, constant can use
+
+## Material UI
+For animation and effect used material design framework
+
+## font awesome icons
+For social icons used font awesome library

@@ -1,0 +1,53 @@
+<div class="contact-action-header">
+  <div class="contact-action">
+    <button type="button" mat-mini-fab color="secondary">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+
+  <div>
+    <h2>Contacts</h2>
+  </div>
+
+  <div class="contact-action">
+    <button type="button" mat-mini-fab color="secondary">
+      <mat-icon>navigate_before</mat-icon>
+    </button>
+    <button type="button" mat-mini-fab color="secondary">
+      <mat-icon>navigate_next</mat-icon>
+    </button>
+  </div>
+</div>
+
+<div class="contact-action-search">
+  <input type="text" autocomplete="off" [(ngModel)]="searchText" placeholder="Name, email or phone number">
+
+  <a *ngIf="!searchText">
+    <mat-icon>search</mat-icon>
+  </a>
+  <a *ngIf="searchText" (click)="searchText=''">
+    <mat-icon>close</mat-icon>
+  </a>
+</div>
+
+<div class="contact-list">
+  <ul *ngIf="!isContactListLoading">
+    <!-- <div *ngIf="(cars | filter: searchText).length > 0; else noResults"> -->
+    <li *ngFor="let contact of filteredContactList()">
+      <app-contact-item [isActive]="selectedContact?.id === contact.id" [item]="contact"
+        (itemClick)="handleSelectContact($event)"></app-contact-item>
+    </li>
+    <!-- </div> -->
+
+  </ul>
+
+  <div *ngIf="isContactListLoading">
+    <div class="contact-list-loader">
+      <div>
+        <ul>
+          <li *ngFor="let j of [1, 2, 3, 4, 5, 6]; let k = index"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

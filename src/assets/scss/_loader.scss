@@ -1,0 +1,93 @@
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+%loadingEffect {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eceef5 8%, #f3f4f9 18%, #eceef5 33%);
+  background-size: 800px 104px;
+  position: relative;
+}
+
+.contact-list-loader {
+  padding: 0 25px;
+
+  ul {
+    li {
+      @extend %loadingEffect;
+      border-radius: 10px;
+      display: inline-block;
+      margin-bottom: 40px;
+      height: 40px;
+      width: 100%;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.contact-details-loader {
+  padding: 0 25px;
+
+  &__profile {
+    @include square(114px);
+    @extend %loadingEffect;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+    margin-right: 20px;
+  }
+
+  &__basic {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-bottom: 40px;
+
+    ul {
+      li {
+        &:first-child {
+          @extend %loadingEffect;
+          border-radius: 5px;
+          display: inline-block;
+          margin-bottom: 20px;
+          height: 30px;
+          width: 300px;
+          text-overflow: ellipsis;
+        }
+
+        &:last-child {
+          @extend %loadingEffect;
+          border-radius: 5px;
+          display: inline-block;
+          margin-bottom: 40px;
+          height: 25px;
+          width: 200px;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+
+  ul {
+    li {
+      @extend %loadingEffect;
+      border-radius: 5px;
+      display: inline-block;
+      margin-bottom: 30px;
+      height: 25px;
+      width: 100%;
+      text-overflow: ellipsis;
+    }
+  }
+}

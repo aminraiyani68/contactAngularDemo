@@ -1,0 +1,103 @@
+@import "../../../assets/scss/abstract";
+@import "../../../assets/scss/variable";
+
+.contact-details{
+    &__basic{
+        display: flex;
+        padding-left: 82px;
+        margin-bottom: 30px;
+
+        div{
+            &:first-child{
+                margin-bottom: 21px;
+            }
+        }
+
+        img{
+            @include square(114px);
+            border-radius: 26px;
+            margin-right: 25px;
+        }
+
+        h4{
+            color: $black-color-1;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 32px;
+        }
+
+        span{
+            color: $secondary-color;
+            text-transform: capitalize;
+            font-weight: 400;
+            line-height: 21px;
+            font-size: 14px;
+        }
+    }
+
+    &__advance{
+        display: flex;
+        margin-bottom: 25px;
+        position: relative;
+
+        &:last-child{
+            span{
+                margin-top: 8px;
+            }
+        }
+
+        .contact-action{
+            li{
+                display: inline-block;
+
+                a{
+                    i{
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+
+        span{
+            color: $secondary-color;
+            display: inline-block;
+            text-align: right;
+            margin-right: 34px;
+            width: 60px;
+        }
+
+        p{
+            color: $black-color-1;
+            width: 80%;
+            font-size: 14px;
+            line-height: 21px;
+        }
+
+        a{
+            color: $black-color-1 !important;
+            text-decoration: underline;
+            
+            &:hover{
+                color: $primary-color !important;
+            }
+        }
+
+        ul{
+            flex-grow: 2;
+
+            li{
+                display: block;
+                list-style: none;
+                position: relative;
+                margin-bottom: 9px;
+                line-height: 21px;
+
+                .primary-btn{
+                    position: absolute;
+                    right: 10%;
+                    top: 0;
+                }
+            }
+        }
+    }
+}
